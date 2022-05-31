@@ -1,0 +1,21 @@
+{
+    "id": "5a6dec7e-7a7c-4f3c-8b49-842ad0fbba75",
+    "name": "Get Members of Queue With Skill Data Action Module",
+    "description": "A Terraform/CX as Code remote module for the following Genesys Cloud public API operation: Get Members of Queue With Skill",
+    "origin": "genesys",
+    "type": "module",
+    "classification": "",
+    "tags": [],
+    "permissions": [],
+    "products": [
+        "Quality Assurance and Compliance"
+    ],
+    "documentation": [],
+    "presentation": [
+        {
+            "title": "Page 1",
+            "description": "Please enter the fields below",
+            "fields": []
+        }
+    ]
+}
