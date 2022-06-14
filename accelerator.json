@@ -4,18 +4,30 @@
     "description": "A Terraform/CX as Code remote module for the following Genesys Cloud public API operation: Get Members of Queue With Skill",
     "origin": "genesys",
     "type": "module",
-    "classification": "",
-    "tags": [],
-    "permissions": [],
+    "classification": "Routing",
+    "tags": [
+        "Routing"
+    ],
+    "permissions": [
+        "routing:queue:view",
+        "routing:queue:edit",
+        "routing:queue:readonly",
+        "routing:queueMember:manage"
+    ],
     "products": [
-        "Quality Assurance and Compliance"
+        "Quality Assurance and Compliance",
+        "Baseline channel-agnostic permissions for handling interactions",
+        "Communicate",
+        "Genesys EX: Employee Experience",
+        "Resource Management",
+        "Cloud CX 1: 1st level Genesys Cloud seat type"
     ],
     "documentation": [],
     "presentation": [
         {
             "title": "Page 1",
             "description": "Please enter the fields below",
-            "fields": []
+            "fields": ["action_name", "action_category", "integration_id"]
         }
     ]
 }
