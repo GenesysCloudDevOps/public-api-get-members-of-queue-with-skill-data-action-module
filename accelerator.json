@@ -13,15 +13,7 @@
         "routing:queue:edit",
         "routing:queue:readonly",
         "routing:queueMember:manage"
-    ],
-    "products": [
-        "Quality Assurance and Compliance",
-        "Baseline channel-agnostic permissions for handling interactions",
-        "Communicate",
-        "Genesys EX: Employee Experience",
-        "Resource Management",
-        "Cloud CX 1: 1st level Genesys Cloud seat type"
-    ],
+    ],    
     "documentation": [],
     "presentation": [
         {
